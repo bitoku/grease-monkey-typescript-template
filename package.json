@@ -1,0 +1,22 @@
+{
+  "name": "grease-monkey-typescript-template",
+  "version": "0.0.1",
+  "description": "This is a template for grease monkey script in typescript.",
+  "main": "src/main.ts",
+  "author": "Ayato Tokubi",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack -w"
+  },
+  "dependencies": {
+    "@types/greasemonkey": "^4.0.1",
+    "@types/node": "^15.12.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^9.2.3",
+    "typescript": "^4.3.2",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.0"
+  }
+}
